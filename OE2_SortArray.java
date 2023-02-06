@@ -92,13 +92,13 @@ public class OE2_SortArray {
         System.out.println("\nNumber of iterations: " + iteration);
     }
 
-    public static void promptAndWait() {
+    static void promptAndWait() {
         System.out.print("Press any key to continue...");
         Scanner IN = new Scanner(System.in);
         IN.nextLine();
     }
 
-    public static void print(String str){
+    static void print(String str){
         System.out.println(str);
     }
 
