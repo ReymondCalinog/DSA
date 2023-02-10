@@ -30,10 +30,12 @@ public class PRELIM_DSAL{
 
             switch (sw) {
                 case 1:
+                    System.out.print("Unsorted List: " + Arrays.toString(stringArray));
                     bubbleSort(stringArray);
                     promptAndWait();
                     break;
                 case 2:
+                    System.out.print("Unsorted List: " + Arrays.toString(stringArray));
                     insertionSort(stringArray);
                     promptAndWait();
                     break;
