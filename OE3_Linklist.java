@@ -11,7 +11,7 @@ public class OE3_Linklist {
 
         while (true) {
             System.out.println("Please choose a following Node operation:");
-            System.out.println("[1] LINKED LIST | Insert at Beginning");
+            System.out.println("[1] LINKED LIST | Insert at the Beginning");
             System.out.println("[2] LINKED LIST | Insert at the End");
             System.out.println("[3] LINKED LIST | Insert a Node, after a specific Node");
             System.out.println("[4] Print your LINKED LIST of Nodes");
