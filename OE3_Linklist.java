@@ -65,18 +65,21 @@ public class OE3_Linklist {
 
                 case 3:
                     System.out.print("Enter a following number to insert ");
-                    int data3 = scr.nextInt();
+                    int insNode = scr.nextInt();
                     System.out.print("Enter a node after which to insert: ");
                     int nodeData = scr.nextInt();
                     Node prevNode = list.searchNode(nodeData);
-                    list.insertAfterNode(prevNode, data3);
+                    list.insertAfterNode(prevNode, insNode);
                     break;
+
                 case 4:
                     list.printList();
                     promptAndWait();
                     break;
+
                 case 0:
                     System.exit(0);
+
                 default:
                     System.out.println("Invalid Input");
             }
